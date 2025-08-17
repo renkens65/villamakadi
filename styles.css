@@ -6,18 +6,19 @@
 	background-image: url('images/header.jpg');
 }
 
-header {
-	width: 1000px;
-	top: 100px;
-	background-image:url('images/header.jpg');
-	background-repeat:no-repeat;
-}
-
 nav {
-	position:absolute;
 	width:1000px;
 	height:100px;
 	background-color:#6dc2c7;
+}
+
+header {
+	position:absolute;
+	top: 100px;
+	height: 320px;
+	width: 1000px;
+	background-image:url('images/header.jpg');
+	background-repeat:no-repeat;
 }
 
 article {
